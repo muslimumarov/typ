@@ -1,9 +1,9 @@
 {
   "scripts": {
   "watch": "tsc --watch"
-},  
+},
   "compilerOptions": {
-    "sourceMap": true,
+    "sourceMap":  true,  
     // "watch": true,
     /* Visit https://aka.ms/tsconfig to read more about this file */
     /* Projects */
