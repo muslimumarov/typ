@@ -20,7 +20,15 @@ let d = c;
 let b = c;
 console.log(b);
 let w = 20; // Hozircha `c` ma'lum emas.
-console.log(c); // Ishlaydi: 20
+console.log(c); // Ishlaydi: 20 
 c = "Hello"; // O'zgartirish mumkin.
 console.log(w); // Ishlaydi: Hello
+let g = 'ldkfkdfj';
+if (typeof g === 'number') {
+    let a = g * g;
+    console.log(a);
+}
+else {
+    console.log('malumot turi xato');
+}
 //# sourceMappingURL=index.js.map

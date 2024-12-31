@@ -21,7 +21,15 @@ let b: number = c as number
 console.log(b);
 
 let w: unknown = 20; // Hozircha `c` ma'lum emas.
-console.log(c); // Ishlaydi: 20
+console.log(c); // Ishlaydi: 20 
 
 c = "Hello"; // O'zgartirish mumkin.
 console.log(w); // Ishlaydi: Hello
+let g: unknown = 'ldkfkdfj'
+if(typeof g === 'number') {
+       let a =  g *g
+   console.log(a);
+}else {
+
+  console.log('malumot turi xato');
+}
