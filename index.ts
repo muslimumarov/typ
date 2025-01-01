@@ -1,39 +1,12 @@
-// // function  add(a:number, b:number):number {
-// //   return a** b
-// // }
-// // console.log(add(4, 5));
-// // function pow(a:number, b: number): string {
-// //   return `${a ** b} - ${a + b}`
-// // }
-// // console.log(pow(3 , 5));
-
-// // function pow(x: any, y: any): any {
-// //    if(typeof x === "number" && typeof y === "number") {
-// //     return x + y
-// //   } else {
-// //     return `${x} ${y}`
-// //   }
-// // }
-// // console.log(pow(true, false));
-// let c: unknown = 20
-// let d: number = <number>c
-// let b: number = c as number
-// console.log(b);
-
-// let w: unknown = 20; // Hozircha `c` ma'lum emas.
-// console.log(c); // Ishlaydi: 20
-
-// c = "Hello"; // O'zgartirish mumkin.
-// console.log(w); // Ishlaydi: Hello
-// let g: unknown = 'ldkfkdfj'
-// if(typeof g === 'number') {
-//        let a =  g *g
-//    console.log(a);
-// }else {
-
-//   console.log('malumot turi xato');
-// }
-let a: (number | string | boolean)[] = [23, 'so', true]
-console.log(a);
-let c: Array<number | object> =[34]
-c = [34, {ket: 3, bor: 44, }]
+class Person {
+  _name: string = 'Muslim'
+  age: number = 27
+   constructor(name:string, age: number) {
+    this._name = this._name
+    this.age = this.age
+   }
+}
+const ibrohim: Person = new Person("Muslim", 23)
+const hamid: Person = new Person("hamid", 2)
+console.log(ibrohim);
+console.log(hamid);
