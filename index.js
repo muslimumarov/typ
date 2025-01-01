@@ -1,10 +1,10 @@
 "use strict";
 class Person {
-    constructor(name, age) {
+    constructor(_name, age) {
         this._name = 'Muslim';
         this.age = 27;
-        this._name = this._name;
-        this.age = this.age;
+        this._name = _name;
+        this.age = age;
     }
 }
 const ibrohim = new Person("Muslim", 23);
