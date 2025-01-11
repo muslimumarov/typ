@@ -7,6 +7,7 @@ class Person {
    }
 }
 const ibrohim: Person = new Person("Muslim", 23)
+
 const hamid: Person = new  Person("hamid", 2)
 console.log(ibrohim);
 console.log(hamid);
