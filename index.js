@@ -1,14 +1,7 @@
 "use strict";
-class Person {
-    constructor(_name, age) {
-        this._name = 'Muslim';
-        this.age = 27;
-        this._name = _name;
-        this.age = age;
-    }
-}
-const ibrohim = new Person("Muslim", 23);
-const hamid = new Person("hamid", 2);
-console.log(ibrohim);
-console.log(hamid);
+const article1 = { title: 'maqola 1 ', page: 1 };
+article1.title = 'dklfjdkf';
+console.log(article1);
+const article3 = { title: 'maqola 1 ', page: 1 };
+article3.title = 'dklfjdkf';
 //# sourceMappingURL=index.js.map
